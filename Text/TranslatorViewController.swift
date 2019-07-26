@@ -9,6 +9,7 @@
 import UIKit
 import Firebase
 import FirebaseMLCommon
+import AVFoundation
 
 class TranslatorViewController: UIViewController {
     
@@ -24,6 +25,7 @@ class TranslatorViewController: UIViewController {
     var Chinees = TranslateLanguage.ZH
     var customView = UIView()
     var selectedLanguage:Int = 0
+    var code:TranslateLanguage = TranslateLanguage(rawValue: 1)!
     
     var languages = ["English","Chinees"]
     var llll:[TranslateLanguage] = [TranslateLanguage.EN,TranslateLanguage.ZH]
@@ -43,23 +45,42 @@ class TranslatorViewController: UIViewController {
         navigationController?.navigationBar.tintColor = UIColor.white
     }
     
+    func Voice(textTospeech:String){
+        let speechSynthesizer = AVSpeechSynthesizer()
+        let speechUtterance: AVSpeechUtterance = AVSpeechUtterance(string: textTospeech)
+        speechUtterance.rate = AVSpeechUtteranceMaximumSpeechRate / 5.0
+        speechUtterance.voice = AVSpeechSynthesisVoice(language: "zh-CN")
+        speechSynthesizer.speak(speechUtterance)
+    }
+    
     func CutomViews() {
         
         First_textView.layer.borderWidth = 0.4
         First_textView.layer.borderColor = UIColor.black.cgColor
         First_textView.layer.cornerRadius = 10
-        First_textView.clipsToBounds = true
+        First_textView.clipsToBounds = false
+        First_textView.layer.shadowRadius = 2.0
+        First_textView.layer.shadowColor = UIColor.gray.cgColor
+        First_textView.layer.shadowOffset = CGSize(width: 4.0, height: 4.0)
+        First_textView.layer.shadowOpacity = 1.0
         
         second_TextVierw.layer.borderWidth = 0.4
         second_TextVierw.layer.borderColor = UIColor.black.cgColor
         second_TextVierw.layer.cornerRadius = 10
-        second_TextVierw.clipsToBounds = true
+        second_TextVierw.clipsToBounds = false
+        second_TextVierw.layer.shadowRadius = 2.0
+        second_TextVierw.layer.shadowColor = UIColor.gray.cgColor
+        second_TextVierw.layer.shadowOffset = CGSize(width: 4.0, height: 4.0)
+        second_TextVierw.layer.shadowOpacity = 1.0
         
         select_Language.layer.borderWidth = 0.4
         select_Language.layer.borderColor = UIColor.black.cgColor
         select_Language.layer.cornerRadius = 10
-        select_Language.clipsToBounds = true
-
+        select_Language.clipsToBounds = false
+        select_Language.layer.shadowRadius = 2.0
+        select_Language.layer.shadowColor = UIColor.gray.cgColor
+        select_Language.layer.shadowOffset = CGSize(width: 4.0, height: 4.0)
+        select_Language.layer.shadowOpacity = 1.0
         
         btn_TranslateCutom.layer.shadowColor = UIColor.darkGray.cgColor
         btn_TranslateCutom.layer.shadowOffset = CGSize(width: 4.0, height: 4.0)
@@ -101,7 +122,7 @@ class TranslatorViewController: UIViewController {
     }
     
     @IBAction func btn_AutoDetect(_ sender: Any) {
-        
+    
         if(First_textView.text != "" ){
     RefgText(text:First_textView.text)
         }else{
@@ -121,6 +142,7 @@ class TranslatorViewController: UIViewController {
                 print("Identified Language: \(languageCode)")
                 self.language_Detected.textColor = UIColor.red
                 self.language_Detected.text = languageCode
+               // code = languageCode
                 
             } else {
                 print("No language was identified")
@@ -130,7 +152,6 @@ class TranslatorViewController: UIViewController {
     
     
     func createToolbar() {
-        
         let toolBar = UIToolbar()
         toolBar.sizeToFit()
         
@@ -159,8 +180,8 @@ class TranslatorViewController: UIViewController {
         if(First_textView.text != ""){
         // Create an English-German translator:
          let lan:String =  self.First_textView.text
-        
-        let options = TranslatorOptions(sourceLanguage:.ZH, targetLanguage: .EN)
+            Voice(textTospeech: lan)
+        let options = TranslatorOptions(sourceLanguage: .ZH, targetLanguage: .EN)
         let englishTamilTranslator = NaturalLanguage.naturalLanguage().translator(options: options)
         
         let conditions = ModelDownloadConditions(

@@ -7,10 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2D03F647229E68D400B5A646 /* latin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D03F646229E68D400B5A646 /* latin.png */; };
 		2D5F490B22D465FE0033AA03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2D5F490A22D465FE0033AA03 /* GoogleService-Info.plist */; };
-		2D5F490D22D4B9140033AA03 /* down.png in Resources */ = {isa = PBXBuildFile; fileRef = 2D5F490C22D4B9140033AA03 /* down.png */; };
-		2D67FBC3229EAA2B002A8989 /* wink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D67FBC2229EAA2B002A8989 /* wink.jpg */; };
+		2DB3067422DF66C50061C008 /* wink.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3067022DF66C50061C008 /* wink.jpg */; };
+		2DB3067522DF66C50061C008 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3067122DF66C50061C008 /* img.png */; };
+		2DB3067622DF66C50061C008 /* latin.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3067222DF66C50061C008 /* latin.png */; };
+		2DB3067722DF66C50061C008 /* mark.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3067322DF66C50061C008 /* mark.jpeg */; };
+		2DB3067A22DF670E0061C008 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DB3067922DF670E0061C008 /* GoogleService-Info.plist */; };
+		2DB34E7B22EAC3DB0078D758 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DB34E7A22EAC3DB0078D758 /* AVFoundation.framework */; };
 		2DDE8B3322A0FC01009ADA32 /* TranslatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DDE8B3222A0FC01009ADA32 /* TranslatorViewController.swift */; };
 		2DE38A3C22951F950002AA77 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE38A3B22951F950002AA77 /* AppDelegate.swift */; };
 		2DE38A3E22951F950002AA77 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE38A3D22951F950002AA77 /* ViewController.swift */; };
@@ -18,19 +21,19 @@
 		2DE38A4322951F970002AA77 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DE38A4222951F970002AA77 /* Assets.xcassets */; };
 		2DE38A4622951F970002AA77 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DE38A4422951F970002AA77 /* LaunchScreen.storyboard */; };
 		2DE38A50229521100002AA77 /* TextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE38A4F229521100002AA77 /* TextViewController.swift */; };
-		2DE38A56229557460002AA77 /* img.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DE38A55229557460002AA77 /* img.png */; };
 		2DE38A5A2295587A0002AA77 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DE38A592295587A0002AA77 /* FaceViewController.swift */; };
-		2DE38A5C22956E3B0002AA77 /* mark.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2DE38A5B22956E3B0002AA77 /* mark.jpeg */; };
-		2DE38A5E229577B70002AA77 /* step.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DE38A5D229577B70002AA77 /* step.jpg */; };
 		3C69B3EF991FE5B05B6DB392 /* Pods_Text.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 191401AD27111BED547423A9 /* Pods_Text.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		191401AD27111BED547423A9 /* Pods_Text.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Text.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D03F646229E68D400B5A646 /* latin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = latin.png; path = ../../../Documents/latin.png; sourceTree = "<group>"; };
 		2D5F490A22D465FE0033AA03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
-		2D5F490C22D4B9140033AA03 /* down.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = down.png; path = ../../../Downloads/down.png; sourceTree = "<group>"; };
-		2D67FBC2229EAA2B002A8989 /* wink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wink.jpg; path = ../../../Documents/wink.jpg; sourceTree = "<group>"; };
+		2DB3067022DF66C50061C008 /* wink.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = wink.jpg; path = "../../../Documents/iOS&Xamarin/Images_FB/wink.jpg"; sourceTree = "<group>"; };
+		2DB3067122DF66C50061C008 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img.png; path = "../../../Documents/iOS&Xamarin/Images_FB/img.png"; sourceTree = "<group>"; };
+		2DB3067222DF66C50061C008 /* latin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = latin.png; path = "../../../Documents/iOS&Xamarin/Images_FB/latin.png"; sourceTree = "<group>"; };
+		2DB3067322DF66C50061C008 /* mark.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mark.jpeg; path = "../../../Documents/iOS&Xamarin/Images_FB/mark.jpeg"; sourceTree = "<group>"; };
+		2DB3067922DF670E0061C008 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2DB34E7A22EAC3DB0078D758 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		2DDE8B3222A0FC01009ADA32 /* TranslatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TranslatorViewController.swift; sourceTree = "<group>"; };
 		2DE38A3822951F950002AA77 /* Text.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Text.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DE38A3B22951F950002AA77 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +43,7 @@
 		2DE38A4522951F970002AA77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DE38A4722951F970002AA77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DE38A4F229521100002AA77 /* TextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextViewController.swift; sourceTree = "<group>"; };
-		2DE38A55229557460002AA77 /* img.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = img.png; path = ../../../Documents/img.png; sourceTree = "<group>"; };
 		2DE38A592295587A0002AA77 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
-		2DE38A5B22956E3B0002AA77 /* mark.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = mark.jpeg; path = ../../../Documents/mark.jpeg; sourceTree = "<group>"; };
-		2DE38A5D229577B70002AA77 /* step.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = step.jpg; path = ../../../Documents/step.jpg; sourceTree = "<group>"; };
 		A8D9EFCFF9AD402B5CA03FDD /* Pods-Text.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text.debug.xcconfig"; path = "Target Support Files/Pods-Text/Pods-Text.debug.xcconfig"; sourceTree = "<group>"; };
 		B5BB884BEE3447232F2EC744 /* Pods-Text.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Text.release.xcconfig"; path = "Target Support Files/Pods-Text/Pods-Text.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -53,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DB34E7B22EAC3DB0078D758 /* AVFoundation.framework in Frameworks */,
 				3C69B3EF991FE5B05B6DB392 /* Pods_Text.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,17 +82,16 @@
 		2DE38A3A22951F950002AA77 /* Text */ = {
 			isa = PBXGroup;
 			children = (
+				2DB3067922DF670E0061C008 /* GoogleService-Info.plist */,
+				2DB3067122DF66C50061C008 /* img.png */,
+				2DB3067222DF66C50061C008 /* latin.png */,
+				2DB3067322DF66C50061C008 /* mark.jpeg */,
+				2DB3067022DF66C50061C008 /* wink.jpg */,
 				2DE38A3B22951F950002AA77 /* AppDelegate.swift */,
 				2DE38A3D22951F950002AA77 /* ViewController.swift */,
 				2DE38A4F229521100002AA77 /* TextViewController.swift */,
 				2DE38A592295587A0002AA77 /* FaceViewController.swift */,
 				2DDE8B3222A0FC01009ADA32 /* TranslatorViewController.swift */,
-				2D03F646229E68D400B5A646 /* latin.png */,
-				2DE38A55229557460002AA77 /* img.png */,
-				2D67FBC2229EAA2B002A8989 /* wink.jpg */,
-				2DE38A5B22956E3B0002AA77 /* mark.jpeg */,
-				2DE38A5D229577B70002AA77 /* step.jpg */,
-				2D5F490C22D4B9140033AA03 /* down.png */,
 				2DE38A3F22951F950002AA77 /* Main.storyboard */,
 				2DE38A4222951F970002AA77 /* Assets.xcassets */,
 				2DE38A4422951F970002AA77 /* LaunchScreen.storyboard */,
@@ -104,6 +104,7 @@
 		A4240A205AB2B65992927713 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2DB34E7A22EAC3DB0078D758 /* AVFoundation.framework */,
 				191401AD27111BED547423A9 /* Pods_Text.framework */,
 			);
 			name = Frameworks;
@@ -179,13 +180,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DE38A5C22956E3B0002AA77 /* mark.jpeg in Resources */,
-				2D5F490D22D4B9140033AA03 /* down.png in Resources */,
+				2DB3067722DF66C50061C008 /* mark.jpeg in Resources */,
 				2DE38A4622951F970002AA77 /* LaunchScreen.storyboard in Resources */,
-				2DE38A5E229577B70002AA77 /* step.jpg in Resources */,
-				2D67FBC3229EAA2B002A8989 /* wink.jpg in Resources */,
-				2D03F647229E68D400B5A646 /* latin.png in Resources */,
-				2DE38A56229557460002AA77 /* img.png in Resources */,
+				2DB3067A22DF670E0061C008 /* GoogleService-Info.plist in Resources */,
+				2DB3067622DF66C50061C008 /* latin.png in Resources */,
+				2DB3067522DF66C50061C008 /* img.png in Resources */,
+				2DB3067422DF66C50061C008 /* wink.jpg in Resources */,
 				2D5F490B22D465FE0033AA03 /* GoogleService-Info.plist in Resources */,
 				2DE38A4322951F970002AA77 /* Assets.xcassets in Resources */,
 				2DE38A4122951F950002AA77 /* Main.storyboard in Resources */,
@@ -433,7 +433,7 @@
 			baseConfigurationReference = A8D9EFCFF9AD402B5CA03FDD /* Pods-Text.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = A43P96XYAA;
 				INFOPLIST_FILE = Text/Info.plist;
@@ -443,7 +443,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nexteraenergy.corporatesecurity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = FPL_CS_Mobile_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = CorpSecurity;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -454,6 +454,7 @@
 			baseConfigurationReference = B5BB884BEE3447232F2EC744 /* Pods-Text.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = A43P96XYAA;
 				INFOPLIST_FILE = Text/Info.plist;
@@ -463,7 +464,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nexteraenergy.corporatesecurity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = FPL_CS_Mobile_Dev;
+				PROVISIONING_PROFILE_SPECIFIER = CorpSecurity;
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

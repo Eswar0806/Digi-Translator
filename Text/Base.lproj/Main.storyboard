@@ -168,7 +168,7 @@
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TXj-Vv-Pf3">
                                 <rect key="frame" x="75" y="349" width="225" height="30"/>
-                                <color key="backgroundColor" red="0.31309273838996887" green="0.6721794605255127" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.73593930060000001" green="0.43639756880000002" blue="0.55524400730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="npT-LL-eZr"/>
                                 </constraints>
@@ -191,7 +191,7 @@
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uIl-g0-mUO">
                                 <rect key="frame" x="40" y="259" width="112.5" height="30"/>
-                                <color key="backgroundColor" red="0.29458412528038025" green="0.6710901464501472" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.73593930060000001" green="0.43639756880000002" blue="0.55524400730000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="30" id="rn2-a0-Xp9"/>
                                 </constraints>
@@ -232,7 +232,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.29458412528038025" green="0.57394224405288696" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="Zow-Kd-yDc" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="uIl-g0-mUO" secondAttribute="trailing" constant="8" symbolic="YES" id="0hE-wc-g5F"/>
                             <constraint firstItem="BQl-sD-EBN" firstAttribute="centerX" secondItem="Uwo-yy-qTU" secondAttribute="centerX" id="3bK-7h-Jpb"/>
